@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgba(189, 247, 255, 0.404);
+    
+}
+.main-box{
+    width: 70vw;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 20px;
+    cursor: pointer;
+}
+.main-box:hover{
+    border: 2px solid aqua;
+    border-radius: 20px;
+    background-color: rgb(247, 0, 255);
+    transition-duration: 0.9s;
+    box-shadow: 0 0 20px rgb(251, 255, 0);
+}
+.l1{
+    display: inline-block;
+    /* border: 1px solid green; */
+    width: 150px;
+}
+input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 4px;
+    height: 20px;
+}
+.txts{
+    color: black;
+    padding: 3px;
+}
+.sec-sel{
+    color: black;
+    position: relative;
+    left: 5px;
+    width: 100px;
+    border-radius: 5px;
+}
+.sec-sel:hover{
+    color: rgb(255, 0, 0);
+} 
+
+#queryForm {
+    margin-bottom: 10px;
+}
+  
+#queryInput {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+}
+#noob{
+    color: black;
+}
+.query {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+  
+.reply {
+    margin-top: 10px;
+    margin-left: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+    color: #000000;
+}
+.submit{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+.submit:hover{
+    background-color: rgba(255, 255, 0, 0.521);
+    box-shadow: 0 0 5px green;
+}

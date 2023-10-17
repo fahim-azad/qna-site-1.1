@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QnA SITE 1</title>
+    <link rel="stylesheet" href="qna site 1.css">
+</head>
+<body>
+    <div class="main-box">
+        <h2>UAP Fall23 solving zone</h2>
+        <form action="noob.php">
+            <label class="l1" for="full-name">Enter name : </label>
+            <input type="text" name="name" id="full-name" class="txts"><br>
+            <label for="roll-number" class="l1">Roll number : </label>
+            <input type="number" name="roll" id="roll-number" class="txts"><br>
+            <label for="section" class="l1">Section</label>
+            <select name="sec" id="section" class="sec-sel">
+                <option value="a" class="sec-sel">A</option>
+                <option value="b" class="sec-sel">B</option>
+                <option value="c" class="sec-sel">C</option>
+                <option value="d" class="sec-sel">D</option>
+            </select>
+        </form>
+        <div id="app">
+            <h1>Ask Your Question in The Box</h1>
+            <div id="queryForm">
+              <textarea id="queryInput" placeholder="enter yur question in this box"></textarea>
+              <button  onclick="fahimAZAD()" class="submit">Submit Question</button>
+            </div>
+            <div id="queries"></div>
+          </div>
+        
+          <script src="qna site 1.js"></script> 
+    </div>
+</body>
+</html> 
